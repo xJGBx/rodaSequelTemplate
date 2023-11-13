@@ -17,6 +17,7 @@ class Router < Roda
   plugin :typecast_params
 
   path(:root, "/")
+  path(:about, "/about")
 
   route do |r|
     r.assets
@@ -25,6 +26,10 @@ class Router < Roda
 
     r.root do
       view "home"
+    end
+
+    r.on "about" do
+      view "about"
     end
   end
 end
