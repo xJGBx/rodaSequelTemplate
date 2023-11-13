@@ -1,8 +1,8 @@
-require "pagy"
-require "pagy/extras/bootstrap"
+#require "pagy"
+#require "pagy/extras/bootstrap"
 
 module Helpers
-  include Pagy::Frontend
+  #include Pagy::Frontend
 
   #Example:
 

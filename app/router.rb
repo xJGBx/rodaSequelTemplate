@@ -12,7 +12,6 @@ class Router < Roda
   plugin :link_to
   plugin :path
   plugin :all_verbs
-  plugin :turbo
   plugin :forme_set, secret: Settings.secret_key
   plugin :content_for
   plugin :typecast_params
@@ -27,16 +26,5 @@ class Router < Roda
     r.root do
       view "home"
     end
-  end
-
-
-  private
-
-  def pagy(dataset)
-    tp = typecast_params
-    dataset = dataset.paginate(tp.pos_int("page") || 1, 100)
-    pagy = Pagy.new(count: dataset.pagination_record_count, page: dataset.current_page, items: dataset.page_size)
-
-    [pagy, dataset.all]
   end
 end
