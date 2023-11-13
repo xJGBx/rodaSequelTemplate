@@ -4,7 +4,7 @@ Hanami-like project structure with Roda, also featuring code reloading and autol
 
 1-To use this template first clone it to your machine e.g
 
-git clone <link_goes here>
+git clone git@github.com:xJGBx/rodaSequelTemplate.git
 
 2-modify the .env file accordingly
 
