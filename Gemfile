@@ -17,3 +17,5 @@ gem "listen", "~> 3.8"
 gem "dry-configurable", "~> 0.15.0"
 gem "dotenv", "~> 2.8"
 gem "concurrent-ruby", "~> 1.2"
+
+gem "rake", "~> 13.1"

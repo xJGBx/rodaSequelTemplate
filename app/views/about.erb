@@ -1,40 +1,41 @@
-    <h1>Roda Sequel App Template</h1>
+  <h2>Roda Sequel App Template</h2>
 
-    <p>Hanami-like project structure with Roda, also featuring code reloading and autoloading via zeitwerk</p>
+  <p>
+    Hanami-like project structure with Roda, also featuring code reloading and autoloading via Zeitwerk.
+    (Includes Tailwind CSS via CDN by default)
+  </p>
 
-    <br>
+  <ol>
+    <li>
+      <p>1. To use this template, first clone it to your machine:</p>
+      <code>git clone git@github.com:xJGBx/rodaSequelTemplate.git</code>
+    </li>
 
-    <ol>
-        <li>To use this template, first clone it to your machine, e.g.,</li>
-    </ol>
-    <pre><code>git clone git@github.com:xJGBx/rodaSequelTemplate.git</code></pre>
+    <li>
+      <p>2. Modify the <code>.env</code> file accordingly</p>
+    </li>
 
-    <br>
+    <li>
+      <p>3. Uncomment <code>.gitignore</code></p>
+    </li>
 
-    <ol start="2">
-        <li>Modify the <code>.env</code> file accordingly</li>
-    </ol>
+    <li>
+      <p>4. Modify the model and migration files accordingly</p>
+    </li>
 
-    <br>
+    <li>
+      <p>5. Run <code>rake db:create</code></p>
+    </li>
 
-    <ol start="3">
-        <li>Uncomment <code>.gitignore</code></li>
-    </ol>
+    <li>
+      <p>6. Run <code>rake db:migrate</code></p>
+    </li>
 
-    <br>
+    <li>
+      <p>7. Run <code>rake --tasks</code> to find available commands</p>
+    </li>
 
-    <ol start="4">
-        <li>Modify the model and migration files accordingly</li>
-    </ol>
-
-    <br>
-
-    <ol start="5">
-        <li>Run <code>rake db:create</code></li>
-    </ol>
-
-    <br>
-
-    <ol start="6">
-        <li>Run <code>rake db:migrate</code></li>
-    </ol>
+    <li>
+      <p>8. Run <code>bundle exec rackup</code> and view in the browser at <a href="http://127.0.0.1:9292">http://127.0.0.1:9292</a> by default</p>
+    </li>
+  </ol>
