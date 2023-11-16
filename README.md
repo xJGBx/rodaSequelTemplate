@@ -18,4 +18,6 @@ git clone git@github.com:xJGBx/rodaSequelTemplate.git
 
 7- run "rake --tasks" to find available commands
 
-8- run "bundle exec rackup" and view in browser at http://127.0.0.1:9292 by default
+8- modify router.rb accordingly
+
+9- run "bundle exec rackup" and view in browser at http://127.0.0.1:9292 by default
