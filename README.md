@@ -10,14 +10,16 @@ git clone git@github.com:xJGBx/rodaSequelTemplate.git
 
 3- Uncomment .gitignore
 
-4- Modify the model and migration files accordingly
+4- Run "bundle install"
 
-5- run "rake db:create"
+5- Modify the model and migration files accordingly
 
-6- run  "rake db:migrate"
+6- run "rake db:create"
 
-7- run "rake --tasks" to find available commands
+7- run  "rake db:migrate"
 
-8- modify router.rb accordingly
+8- run "rake --tasks" to find available commands
 
-9- run "bundle exec rackup" and view in browser at http://127.0.0.1:9292 by default
+9- modify router.rb accordingly
+
+10- run "bundle exec rackup" and view in browser at http://127.0.0.1:9292 by default
